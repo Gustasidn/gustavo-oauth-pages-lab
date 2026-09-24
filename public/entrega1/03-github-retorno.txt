@@ -1,0 +1,2 @@
+Homepage URL: https://gustavo-oauth-pages-lab.pages.dev
+Authorization call-back URL: https://gustavo-oauth-pages-lab.pages.dev/oauth/callback/github

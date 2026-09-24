@@ -1,0 +1,15 @@
+Slash commands
+
+/clear: clear the console screen.
+
+/help or /?: display these hints again.
+
+/tables: show a list of the tables in this database.
+
+/bookmark: retrieve a bookmark to the database's current state to time travel back to later.
+
+/bookmark yyyy-mm-ddThh:mm:ss.mmmZ: get the nearest bookmark to the provided RFC3339 timestamp.
+
+/restore bookmark-id: restore a database back to a specific point-in-time.
+
+> SELECT name, type FROM sqlite_schema WHERE name NOT LIKE 'sqlite_%' ORDER BY type, name;
